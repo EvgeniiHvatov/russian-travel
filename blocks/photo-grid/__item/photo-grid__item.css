@@ -5,7 +5,26 @@
   font-size: 0;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
+  .photo-grid__item {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid__item {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__item {
+    max-width: 288px;
+  }
+}
+
+
+/* @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid__item {
     max-width: 300px;
   }
@@ -21,4 +40,4 @@
   .photo-grid__item {
     max-width: 288px;
   }
-}
+} */

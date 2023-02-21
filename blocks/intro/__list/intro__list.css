@@ -7,8 +7,15 @@
   margin: 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .intro__list {
     line-height: 1.54; /* для подгона в пиксель перфект*/
   }
 }
+
+
+/* @media screen and (min-width: 320px) and (max-width: 767px) {
+  .intro__list {
+    line-height: 1.54; для подгона в пиксель перфект
+  }
+} */

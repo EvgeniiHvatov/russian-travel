@@ -3,7 +3,26 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
+  .places {
+    max-width: calc(100% - 48px*2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    max-width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    max-width: 100%;
+  }
+}
+
+
+/* @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places {
     max-width: calc(100% - 48px*2);
   }
@@ -19,4 +38,4 @@
   .places {
     max-width: 100%;
   }
-}
+} */

@@ -6,7 +6,12 @@
   color: #fff;
   text-decoration: none;
   margin: 0;
-  right: 0;
-  text-align: center;
+  text-align: right;
 }
 
+@media screen  and (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 48px;
+    text-align: left;
+  }
+}
